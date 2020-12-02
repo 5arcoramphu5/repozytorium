@@ -2,6 +2,6 @@ on: [push,pull_request]
 jobs: 
   jobNazwa:
     steps:
-      - run: echo Hello World
+      - run: echo 'Hello World'
     runs-on: ubuntu-latest
      
